@@ -1,40 +1,63 @@
-div[class="container"]{
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+body {
+  font-family: 'Happy Monkey', cursive;
+}
+
+div[class="container"] {
   width: 800px;
-  margin: 0, auto;
+  margin: 0 auto;
   align-items: center;
-  position: relative;
   padding-left: 50px;
   padding-right: 50px;
+  box-shadow: 5px 5px 5px 0px black, -5px 5px 5px 0px black;
 }
 
-p{
-  color: #707070;
-}
-li{
+p {
   color: #707070;
 }
 
-header{
+li {
+  color: #707070;
+}
+
+header {
   text-align: center;
 }
 
-h1{
+h1 {
   color: #DB0038;
 }
 
-h2{
+h2 {
   color: #3998A3;
 }
 
-h3{
+h3 {
   color: #474747;
 }
 
-div .hero{
+div .hero {
   background-color: #f4f4f4;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 10px 1px 24px ;
+
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
+li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+div.rating {
+  color: #f4b400;
+  size: 25px;
+}
+
+footer,
+.rating {
+  text-align: center;
+}
