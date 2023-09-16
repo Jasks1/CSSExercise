@@ -1,7 +1,49 @@
+.container {
+  position: relative;
+}
+
 img {
   width: 50px;
 }
+
 #face {
   width: 400px;
+  height: 550;
+  top: 500px;
+  right: 400px;
 }
 
+#hat {
+  position: absolute;
+  top: -2rem;
+  left: 5rem;
+  width: 256px;
+}
+
+#eyes1 {
+  position: absolute;
+  top: 14rem;
+  left: 4rem;
+  width: 256px;
+}
+
+#nose2 {
+  position: absolute;
+  top: 14rem;
+  left: 6rem;
+  width: 180px;
+}
+
+#mouth2 {
+  position: absolute;
+  top: 24rem;
+  left: 6rem;
+  width: 188px;
+}
+
+#ears2 {
+  position: absolute;
+  top: 8rem;
+  left: -1rem;
+  width: 27rem;
+}
